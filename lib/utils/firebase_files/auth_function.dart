@@ -10,7 +10,7 @@ class FirebaseFunctions {
     required String email,
     required String password,
     required String phone,
-    required int avatar,
+    required String avatar,
   }) async {
     try {
       auth.UserCredential userCredential = await auth.FirebaseAuth.instance
